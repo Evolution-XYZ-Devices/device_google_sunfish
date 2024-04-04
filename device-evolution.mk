@@ -39,10 +39,6 @@ include hardware/google/pixel/lineage_health/device.mk
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
 
-# Parts
-PRODUCT_PACKAGES += \
-    GoogleParts
-
 # RCS
 PRODUCT_PACKAGES += \
     PresencePolling \
