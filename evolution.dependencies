@@ -6,5 +6,11 @@
   {
     "repository": "kernel_google_msm-4.14",
     "target_path": "kernel/google/msm-4.14"
+  },
+  {
+    "repository": "tiann/KernelSU",
+    "target_path": "kernel/google/msm-4.14/KernelSU",
+    "branch": "main",
+    "remote": "github"
   }
 ]
