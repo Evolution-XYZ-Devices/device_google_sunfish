@@ -189,5 +189,10 @@ PRODUCT_PACKAGES += \
     android.hardware.weaver@1.0.vendor:64 \
     android.system.net.netd@1.1.vendor:64
 
+# IMS
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.dbg.ims_volte_enable=1 \
+    persist.dbg.volte_avail_ovr=1
+
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
