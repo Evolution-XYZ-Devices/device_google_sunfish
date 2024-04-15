@@ -1,0 +1,2 @@
+allow vendor_init device:file create;
+allow vendor_init system_prop:property_service set;
